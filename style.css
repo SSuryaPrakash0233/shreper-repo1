@@ -1,0 +1,198 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+#nav {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav a {
+    margin-right: 20px;
+    
+
+}
+
+#nav .toplink1 {
+    padding-top: 7px;
+    font-family: sans-serif;
+    font-size: small;
+    
+}
+#nav .toplink2 {
+    padding-top: 7px;
+    font-family: sans-serif;
+    font-size: small;
+    
+}
+
+
+#nav .topimage1 {
+    padding-top: 7px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+} 
+
+
+
+#nav .topimage2 {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+} 
+
+#middle {
+    margin-top: 112px;
+    margin-bottom: 270px;
+}
+    
+    
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#search, #voice {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    left: 475px;
+}
+
+#voice {
+    right: 475px;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: 1px solid #c4c4c4;
+
+
+}
+
+.searchimage {
+
+    width: 18px;
+    height: 18px;
+
+}
+
+.voiceimage {
+
+    width: 15px;
+    height: 15px;
+
+}
+
+#searchbar:hover {
+
+    box-shadow: 0 0 10px 2px rgb(238, 238, 238);
+}
+
+
+#buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(245, 245, 245);
+    border : 2px solid transparent;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.googlelink
+{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#links {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.links {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+ }
+
+.buttons:hover {
+
+    box-shadow: 0 0 2px 1px rgb(238, 238, 238);
+    border : 2px solid #eee;
+}
+
+#footer-content {
+    background: #eee;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+
+}
+
+#orginalfooter-content
+{
+    background: #eee;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+
+.footy1 {
+    
+    font-family: sans-serif;
+    font-size: small;
+}
